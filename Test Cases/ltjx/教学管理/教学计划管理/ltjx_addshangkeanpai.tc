@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e38ab834-5755-4a7e-9311-af1340e2e2ed</testCaseGuid>
+   <variable>
+      <defaultValue>'40'</defaultValue>
+      <description></description>
+      <id>b261a29a-6956-41d3-a757-025eb592c0a1</id>
+      <masked>false</masked>
+      <name>shichang</name>
+   </variable>
 </TestCaseEntity>

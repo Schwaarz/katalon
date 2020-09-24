@@ -87,6 +87,8 @@ WebUI.delay(delaytime)
 
 WebUI.uploadFile(findTestObject('ltjx/公共元素/区块元素/第三区块/图片/upload-Pic'), Pic)
 
+WebUI.delay(delaytime)
+
 //图片-END
 
 //PPT
@@ -100,6 +102,8 @@ WebUI.click(findTestObject('ltjx/公共元素/区块元素/第四区块/幻灯�
 WebUI.delay(delaytime)
 
 WebUI.uploadFile(findTestObject('ltjx/公共元素/区块元素/第四区块/幻灯片/upload-PPT'), PPT)
+
+WebUI.delay(delaytime)
 
 //PPT-END
 

@@ -35,27 +35,57 @@ WebUI.mouseOver(findTestObject('ltjx/教学管理/教学计划管理/xiala'))
 
 WebUI.delay(delaytime)
 
-WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/shangkeanpai'))
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/shangkeanpai'))
 
-WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/add_shangkeanpai'))
+WebUI.delay(delaytime)
 
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/add_shangkeanpai'))
 
-WebUI.click(findTestObject(null))
+WebUI.delay(delaytime)
 
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/suoshuxueqi'))
 
-WebUI.setText(findTestObject(null), '')
+WebUI.delay(delaytime)
 
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/suoshuxueqi-1'))
 
-WebUI.click(findTestObject(null))
+WebUI.delay(delaytime)
 
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/shangkeshijian'))
 
-WebUI.click(findTestObject(null))
+WebUI.delay(delaytime)
 
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/shangkeshijian-24'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject(null))
+WebUI.delay(delaytime)
+
+WebUI.setText(findTestObject('ltjx/教学管理/教学计划管理/上课安排/shichang'), shichang)
+
+WebUI.delay(delaytime)
+
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/jiaoshixuanze'))
+
+WebUI.delay(delaytime)
+
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/jiaoshixuanze-1'))
+
+WebUI.delay(delaytime)
+
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/shangkebanji'))
+
+WebUI.delay(delaytime)
+
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/shangkebanji-1'))
+
+WebUI.delay(delaytime)
+
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/shangkebanji-2'))
+
+WebUI.delay(delaytime)
+
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/上课安排/shangkeanpai-submit'))
+
+WebUI.delay(delaytime)
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

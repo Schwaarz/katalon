@@ -27,7 +27,7 @@ WebUI.click(findTestObject('ltjx/公共元素/菜单/jiaoxueguanli'))
 
 WebUI.delay(delaytime)
 
-WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/教学计划/jiaoxuejihuaguanli'))
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/jiaoxuejihuaguanli'))
 
 WebUI.delay(delaytime)
 
@@ -125,7 +125,7 @@ WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/教学计划/ba
 
 WebUI.delay(delaytime)
 
-WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/教学计划/jiaoxuejihuaguanli'))
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/jiaoxuejihuaguanli'))
 
 WebUI.delay(delaytime)
 
@@ -153,7 +153,7 @@ WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/教学计划/ba
 
 WebUI.delay(delaytime)
 
-WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/教学计划/jiaoxuejihuaguanli'))
+WebUI.click(findTestObject('ltjx/教学管理/教学计划管理/jiaoxuejihuaguanli'))
 
 WebUI.delay(delaytime)
 

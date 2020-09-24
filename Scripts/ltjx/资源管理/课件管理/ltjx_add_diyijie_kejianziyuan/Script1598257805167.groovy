@@ -71,9 +71,11 @@ WebUI.delay(delaytime)
 
 WebUI.click(findTestObject('ltjx/公共元素/区块元素/第二区块/视频/MP4'))
 
-WebUI.delay(2)
+WebUI.delay(delaytime)
 
 WebUI.uploadFile(findTestObject('ltjx/公共元素/区块元素/第二区块/视频/upload-MP4'), MP4)
+
+WebUI.delay(delaytime)
 
 //视频-END
 
