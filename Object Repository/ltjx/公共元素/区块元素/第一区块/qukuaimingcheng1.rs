@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>qukuaimingcheng1</name>
+   <tag></tag>
+   <elementGuidId>0c7db6bd-4671-4410-8fc2-ef3950e530aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[@id='app']/div/div/div/section[@id='panelContent']/div/div/div/div/div/div/div/div/div/div/div/div/div[1]/form[1]/div[1]/div[1]/div[1]/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>请输入区块名称</value>
+   </webElementProperties>
+</WebElementEntity>

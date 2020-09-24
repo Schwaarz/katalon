@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>qiyebulingdao</name>
+   <tag></tag>
+   <elementGuidId>b208fc54-10eb-48cd-a761-a1b33d3f3786</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='panelContent']/div/div/div/div/form/div[7]/div/div/div/div/div[2]/label[2]/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-checkbox__inner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panelContent&quot;)/div[@class=&quot;grid-content bg-purple-light h-100p&quot;]/div[@class=&quot;h-100p el-col el-col-24&quot;]/div[1]/div[1]/form[@class=&quot;el-form el-form__self el-form--label-top&quot;]/div[@class=&quot;m-t-10&quot;]/div[1]/div[@class=&quot;bg-wh p-10&quot;]/div[@class=&quot;m-b-10&quot;]/div[1]/div[@class=&quot;m-l-20&quot;]/label[@class=&quot;el-checkbox m-l-20&quot;]/span[@class=&quot;el-checkbox__input&quot;]/span[@class=&quot;el-checkbox__inner&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='panelContent']/div/div/div/div/form/div[7]/div/div/div/div/div[2]/label[2]/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>

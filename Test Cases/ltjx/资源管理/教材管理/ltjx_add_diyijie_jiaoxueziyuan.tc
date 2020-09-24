@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ltjx_add_diyijie_jiaoxueziyuan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5dd9e95-6690-4cd6-915c-e71f8e8bb2cf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>69e9d74e-7217-47c0-8cd6-29ac1a10da8f</id>
+      <masked>false</masked>
+      <name>PPT</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>41576e13-aff8-4c8c-bd1e-dbeb009d65ca</id>
+      <masked>false</masked>
+      <name>MP4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8535a241-ee4c-4c0b-aeaa-4a1365b354d9</id>
+      <masked>false</masked>
+      <name>Pic</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2972d43d-52b4-4a83-842b-a39885a3e908</id>
+      <masked>false</masked>
+      <name>gongjubook</name>
+   </variable>
+</TestCaseEntity>

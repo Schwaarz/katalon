@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>gongjushufengmian</name>
+   <tag></tag>
+   <elementGuidId>d43cced0-d807-4e70-925e-e54842c62030</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div[2]/section/div/div/div/div[2]/form/div[1]/div[2]/div[3]/div/div/div/div/div/div/div/div[1]/div/div/div[1]/label/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ltjx_addgongjushu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03cb4d32-c2db-42a0-a86f-fe5cf6cddfcc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3aa1448-8d86-4a3a-97e8-7173ed8a928b</id>
+      <masked>false</masked>
+      <name>gongjushumingcheng</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f59f26c-616f-417f-9f61-74f060c9d262</id>
+      <masked>false</masked>
+      <name>uploadPDF</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24481065-85ea-4364-a94a-c18bd86e2c2a</id>
+      <masked>false</masked>
+      <name>gongjushufengmian</name>
+   </variable>
+</TestCaseEntity>

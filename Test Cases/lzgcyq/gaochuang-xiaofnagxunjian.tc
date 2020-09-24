@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>gaochuang-xiaofnagxunjian</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55cb73a8-11e3-44a3-87a7-ae4577c9e81a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>19ab7526-a8a0-4449-bfeb-6c1b0d194bce</id>
+      <masked>false</masked>
+      <name>username1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d8a3b53-fedf-4fd5-be2b-52e674a83910</id>
+      <masked>false</masked>
+      <name>password1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>572ad5ae-c2d0-46b7-9804-177d7a1c7102</id>
+      <masked>false</masked>
+      <name>username2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>227bc442-fe4b-4fa5-9184-b38d8fac40f1</id>
+      <masked>false</masked>
+      <name>password2</name>
+   </variable>
+</TestCaseEntity>

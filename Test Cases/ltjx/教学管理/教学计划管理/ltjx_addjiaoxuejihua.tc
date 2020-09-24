@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ltjx_addjiaoxuejihua</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21be8d44-cb5f-42a4-a650-94bfb7b46ed6</testCaseGuid>
+   <variable>
+      <defaultValue>'德国班'</defaultValue>
+      <description></description>
+      <id>aeddf41e-5ef0-483a-9e54-473d84da61d4</id>
+      <masked>false</masked>
+      <name>kechengfeilei</name>
+   </variable>
+   <variable>
+      <defaultValue>'入门与精通'</defaultValue>
+      <description></description>
+      <id>a2bb1325-bfcf-4c6e-8e02-f8c6592acec9</id>
+      <masked>false</masked>
+      <name>kechengmingcheng</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>516bd832-d1fc-46af-b3fe-8316fbececfe</id>
+      <masked>false</masked>
+      <name>keshi</name>
+   </variable>
+</TestCaseEntity>

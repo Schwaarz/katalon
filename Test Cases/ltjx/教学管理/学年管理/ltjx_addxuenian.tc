@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ltjx_addxuenian</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41d33b73-b505-45b9-81b8-cd3349136a2a</testCaseGuid>
+   <variable>
+      <defaultValue>'冬季训练营'</defaultValue>
+      <description></description>
+      <id>3496c44c-912f-476f-a7d8-e6e96d7c1560</id>
+      <masked>false</masked>
+      <name>xueqimingcheng</name>
+   </variable>
+   <variable>
+      <defaultValue>'自动测试'</defaultValue>
+      <description></description>
+      <id>92174bc5-145b-45e2-9105-b43853adf2c2</id>
+      <masked>false</masked>
+      <name>beizhu</name>
+   </variable>
+</TestCaseEntity>

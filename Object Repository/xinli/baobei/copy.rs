@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>copy</name>
+   <tag></tag>
+   <elementGuidId>ac477302-ed41-467b-88ef-2b6508830828</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;panelContent&quot;)/div[@class=&quot;grid-content bg-purple-light h-100p&quot;]/div[@class=&quot;h-100p el-col el-col-24&quot;]/div[1]/div[1]/div[@class=&quot;h-100p&quot;]/div[1]/div[1]/div[@class=&quot;bg-wh&quot;]/div[@class=&quot;ovf-y-auto&quot;]/div[1]/div[1]/form[@class=&quot;el-form addReportFrom el-form--label-top&quot;]/div[@class=&quot;p-20 el-row el-row--flex&quot;]/div[@class=&quot;el-col el-col-8&quot;]/div[@class=&quot;w-100p el-row is-align-middle el-row--flex&quot;]/div[3]/i[@class=&quot;fa fa-retweet pointer m-l-20 m-t-20&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='panelContent']/div/div/div/div/div/div/div/div/div[2]/div/div/form/div/div[6]/div/div[3]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-retweet pointer m-l-20 m-t-20</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panelContent&quot;)/div[@class=&quot;grid-content bg-purple-light h-100p&quot;]/div[@class=&quot;h-100p el-col el-col-24&quot;]/div[1]/div[1]/div[@class=&quot;h-100p&quot;]/div[1]/div[1]/div[@class=&quot;bg-wh&quot;]/div[@class=&quot;ovf-y-auto&quot;]/div[1]/div[1]/form[@class=&quot;el-form addReportFrom el-form--label-top&quot;]/div[@class=&quot;p-20 el-row el-row--flex&quot;]/div[@class=&quot;el-col el-col-8&quot;]/div[@class=&quot;w-100p el-row is-align-middle el-row--flex&quot;]/div[3]/i[@class=&quot;fa fa-retweet pointer m-l-20 m-t-20&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='panelContent']/div/div/div/div/div/div/div/div/div[2]/div/div/form/div/div[6]/div/div[3]/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div[3]/i</value>
+   </webElementXpaths>
+</WebElementEntity>
