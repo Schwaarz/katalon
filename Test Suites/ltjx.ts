@@ -614,4 +614,16 @@
          <variableId>516bd832-d1fc-46af-b3fe-8316fbececfe</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7cdf3abb-cbad-45b9-837f-0d95f678b2a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ltjx/教学管理/教学计划管理/ltjx_addshangkeanpai</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b261a29a-6956-41d3-a757-025eb592c0a1</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
