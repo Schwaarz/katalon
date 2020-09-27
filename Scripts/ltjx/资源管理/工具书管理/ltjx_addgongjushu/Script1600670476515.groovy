@@ -19,7 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('ltjx/login'), [('Networkaddress') : 'http://ltpt.wkuai.cc/', ('username') : '管理员', ('password') : 'Ltjx2020'], 
     FailureHandling.STOP_ON_FAILURE)
 
-int delaytime = 1
+int delaytime = 2
 
 WebUI.click(findTestObject('ltjx/公共元素/菜单/ziyuanguanli'))
 

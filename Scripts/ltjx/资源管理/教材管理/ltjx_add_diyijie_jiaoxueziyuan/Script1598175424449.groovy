@@ -19,7 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 //呼叫登录测试用例
 WebUI.callTestCase(findTestCase('ltjx/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-int delaytime = 1
+int delaytime = 3
 
 WebUI.click(findTestObject('ltjx/公共元素/菜单/ziyuanguanli'))
 
@@ -35,23 +35,33 @@ WebUI.delay(delaytime)
 
 WebUI.click(findTestObject('ltjx/资源管理/教材管理/xiayibu'))
 
+WebUI.delay(delaytime)
+
 WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_Mp4'), MP4)
 
 WebUI.delay(delaytime)
 
 WebUI.click(findTestObject('ltjx/资源管理/教材管理/xiayibu'))
 
-WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_pic'), Pic)
+WebUI.delay(delaytime)
+
+for (def index : (0..4)) {
+	WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_pic'), Pic)
+}
 
 WebUI.delay(delaytime)
 
 WebUI.click(findTestObject('ltjx/资源管理/教材管理/xiayibu'))
+
+WebUI.delay(delaytime)
 
 WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_gongjubook'), gongjubook)
 
 WebUI.delay(delaytime)
 
 WebUI.click(findTestObject('ltjx/资源管理/教材管理/baocun'))
+
+WebUI.delay(delaytime)
 
 //拍个照
 WebUI.takeScreenshot('E:\\jiaocaisubmit.png')

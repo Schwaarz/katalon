@@ -50,7 +50,7 @@ for (def index : (1..4)) {
 //富文本
 WebUI.delay(delaytime)
 
-WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第一区块/qukuaimingchengdelaytime'), qukuaimingchengdelaytime)
+WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第一区块/qukuaimingchengdelaytime'), qukuaimingcheng1)
 
 WebUI.sendKeys(findTestObject('ltjx/公共元素/区块元素/第一区块/xuanzequkuaidelaytime'), Keys.chord(Keys.ENTER))
 
@@ -72,6 +72,8 @@ WebUI.click(findTestObject('ltjx/公共元素/区块元素/第二区块/视频/M
 WebUI.delay(delaytime)
 
 WebUI.uploadFile(findTestObject('ltjx/公共元素/区块元素/第二区块/视频/upload-MP4'), MP4)
+
+WebUI.delay(delaytime)
 
 //视频-END
 

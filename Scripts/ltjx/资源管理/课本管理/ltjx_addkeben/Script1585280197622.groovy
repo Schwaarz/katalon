@@ -20,23 +20,35 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 //呼叫登录测试用例
 WebUI.callTestCase(findTestCase('ltjx/login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+int delaytime = 1
+
 WebUI.click(findTestObject('ltjx/公共元素/菜单/ziyuanguanli'))
 
 WebUI.click(findTestObject('ltjx/资源管理/课本管理/kebenguanli'))
 
 WebUI.click(findTestObject('ltjx/资源管理/课本管理/Add keben'))
 
+WebUI.delay(delaytime)
+
 WebUI.setText(findTestObject('ltjx/资源管理/课本管理/kebenmingcheng'), kebenmingcheng)
+
+WebUI.delay(delaytime)
 
 WebUI.setText(findTestObject('ltjx/资源管理/课本管理/kebenzuozhe'), kebenzuozhe)
 
+WebUI.delay(delaytime)
+
 WebUI.setText(findTestObject('ltjx/资源管理/课本管理/kebenshuhao'), kebenshuhao)
+
+WebUI.delay(delaytime)
 
 WebUI.setText(findTestObject('ltjx/资源管理/课本管理/chubanshe'), chubanshe)
 
+WebUI.delay(delaytime)
+
 WebUI.click(findTestObject('ltjx/资源管理/课本管理/chubantime'))
 
-WebUI.delay(1)
+WebUI.delay(delaytime)
 
 WebUI.click(findTestObject('ltjx/资源管理/课本管理/day'))
 
@@ -44,12 +56,12 @@ WebUI.setText(findTestObject('ltjx/资源管理/课本管理/kebenjianjie'), keb
 
 WebUI.uploadFile(findTestObject('ltjx/资源管理/课本管理/fengmian'), fengmian)
 
-WebUI.delay(1)
+WebUI.delay(delaytime)
 
 WebUI.click(findTestObject('ltjx/资源管理/课本管理/submit'))
 
 //拍个照
 WebUI.takeScreenshot('D:\\kebensubmit.png')
 
-toString()
+
 

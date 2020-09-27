@@ -44,7 +44,7 @@ for (def index : (1..7)) {
 //富文本
 WebUI.delay(delaytime)
 
-WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第一区块/qukuaimingchengdelaytime'), qukuaimingchengdelaytime)
+WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第一区块/qukuaimingchengdelaytime'), qukuaimingcheng1)
 
 WebUI.delay(delaytime)
 

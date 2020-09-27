@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>4137bca0-6373-48ac-add3-455ad5499415</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ltjx/资源管理/课本管理/ltjx_addkeben</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>f2d4b89c-073d-4665-82ec-b695445a0784</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ltjx/资源管理/教材管理/ltjx_addjiaocai</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -110,7 +110,7 @@
    <testCaseLink>
       <guid>2d9a1ef1-3e87-4cc6-b4dd-89fcbd264d36</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ltjx/资源管理/工单管理/ltjx_add_diyijie_gongdanziyuan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -353,7 +353,7 @@
    <testCaseLink>
       <guid>59ad24d4-d088-4793-af2f-194e75a250f6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ltjx/资源管理/课件管理/ltjx_add_diyijie_kejianziyuan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -542,7 +542,7 @@
    <testCaseLink>
       <guid>66a57c4f-bee7-4c9e-b2f5-85f3c5f4c477</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ltjx/资源管理/工具书管理/ltjx_addgongjushu</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -575,7 +575,7 @@
    <testCaseLink>
       <guid>c03b30c4-aa84-494e-8b18-63fb292f003a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ltjx/教学管理/学年管理/ltjx_addxuenian</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -593,7 +593,7 @@
    <testCaseLink>
       <guid>20be2faf-d852-49c7-996f-c1aae3850dc0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ltjx/教学管理/教学计划管理/ltjx_addjiaoxuejihua</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -617,7 +617,7 @@
    <testCaseLink>
       <guid>7cdf3abb-cbad-45b9-837f-0d95f678b2a1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ltjx/教学管理/教学计划管理/ltjx_addshangkeanpai</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
