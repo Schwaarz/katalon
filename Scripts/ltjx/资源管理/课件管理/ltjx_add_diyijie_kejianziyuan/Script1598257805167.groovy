@@ -44,11 +44,11 @@ for (def index : (1..7)) {
 //富文本
 WebUI.delay(delaytime)
 
-WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第一区块/qukuaimingchengdelaytime'), qukuaimingcheng1)
+WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第一区块/qukuaimingcheng1'), qukuaimingcheng1)
 
 WebUI.delay(delaytime)
 
-WebUI.click(findTestObject('ltjx/公共元素/区块元素/第一区块/xuanzequkuaidelaytime'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ltjx/公共元素/区块元素/第一区块/xuanzequkuai1'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(delaytime)
 
@@ -142,7 +142,7 @@ WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第五区块/填空
 
 WebUI.delay(delaytime)
 
-WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第五区块/填空/daan-delaytime'), tiankongdaandelaytime)
+WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第五区块/填空/daan-1'), tiankongdaan1)
 
 WebUI.delay(delaytime)
 

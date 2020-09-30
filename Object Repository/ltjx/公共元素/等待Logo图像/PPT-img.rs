@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PPT-img</name>
+   <tag></tag>
+   <elementGuidId>e881ba7a-1b31-4a1f-8843-42cc17c83fd6</elementGuidId>
+   <imagePath>D:\PPT.jpg</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>D:\PPT.jpg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;panelContent&quot;]/div/div/div/div[1]/div[2]/div/div/div/div[1]/div/div[2]/div[1]/form/div[1]/div/div/ul/li/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -50,9 +50,9 @@ for (def index : (1..4)) {
 //富文本
 WebUI.delay(delaytime)
 
-WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第一区块/qukuaimingchengdelaytime'), qukuaimingcheng1)
+WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第一区块/qukuaimingcheng1'), qukuaimingcheng1)
 
-WebUI.sendKeys(findTestObject('ltjx/公共元素/区块元素/第一区块/xuanzequkuaidelaytime'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('ltjx/公共元素/区块元素/第一区块/xuanzequkuai1'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('ltjx/公共元素/区块元素/第一区块/富文本/fuwenben'))
 
@@ -123,7 +123,7 @@ WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第五区块/填空
 
 WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第五区块/填空/daan-jiexi'), tiankongdaanjiexi)
 
-WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第五区块/填空/daan-delaytime'), tiankongdaandelaytime)
+WebUI.setText(findTestObject('ltjx/公共元素/区块元素/第五区块/填空/daan-1'), tiankongdaan1)
 
 WebUI.uploadFile(findTestObject('ltjx/公共元素/区块元素/第五区块/填空/upload-Pic'), tiankongPic)
 
@@ -211,7 +211,7 @@ WebUI.delay(delaytime)
 
 WebUI.setText(findTestObject('ltjx/资源管理/工单管理/pingfenbiaoti'), pingfenbiaoti)
 
-WebUI.setText(findTestObject('ltjx/资源管理/工单管理/pingfen-delaytime'), pingfendelaytime)
+WebUI.setText(findTestObject('ltjx/资源管理/工单管理/pingfen-1'), pingfen1)
 
 WebUI.setText(findTestObject('ltjx/资源管理/工单管理/pingfen-2'), pingfen2)
 
@@ -219,7 +219,7 @@ WebUI.setText(findTestObject('ltjx/资源管理/工单管理/pingfen-3'), pingfe
 
 WebUI.setText(findTestObject('ltjx/资源管理/工单管理/pingfen-4'), pingfen4)
 
-WebUI.setText(findTestObject('ltjx/资源管理/工单管理/fenzhi-delaytime'), fenzhidelaytime)
+WebUI.setText(findTestObject('ltjx/资源管理/工单管理/fenzhi-1'), fenzhi1)
 
 WebUI.setText(findTestObject('ltjx/资源管理/工单管理/fenzhi-2'), fenzhi2)
 

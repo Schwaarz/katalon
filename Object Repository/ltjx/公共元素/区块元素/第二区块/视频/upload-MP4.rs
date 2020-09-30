@@ -6,13 +6,35 @@
    <elementGuidId>ef625d53-c1d1-436e-be2e-a267637ca467</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;panelContent&quot;]/div/div/div/div[1]/div[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/form/form/div[1]/div/div/div/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[@id='app']/div/div/div/section[@id='panelContent']/div/div/div/div/div/div/div/div/div/div/div/div/div/form/form/div/div/div/div/input[1]</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;panelContent&quot;]/div/div/div/div[1]/div[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/form/form/div[1]/div/div/div/input[count(. | //*[@type = 'file' and @name = 'file']) = count(//*[@type = 'file' and @name = 'file'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>file</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;panelContent&quot;]/div/div/div/div[1]/div[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/form/form/div[1]/div/div/div/input</value>
+   </webElementProperties>
 </WebElementEntity>

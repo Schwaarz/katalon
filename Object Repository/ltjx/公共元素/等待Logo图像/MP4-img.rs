@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MP4-img</name>
+   <tag></tag>
+   <elementGuidId>fac2ef90-a8c4-4b3e-a9ab-6d09f2a414a6</elementGuidId>
+   <imagePath>D:\MP4.jpg</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>D:\MP4.jpg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;panelContent&quot;]/div/div/div/div[1]/div[2]/div/div/div/div[1]/div/div[2]/form/div[1]/div/div/ul/li/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
