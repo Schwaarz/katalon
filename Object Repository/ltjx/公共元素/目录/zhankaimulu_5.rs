@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>附加选项</description>
-   <name>fujiaxuanxiang_1</name>
+   <description></description>
+   <name>zhankaimulu_5</name>
    <tag></tag>
-   <elementGuidId>ea55ec59-59e1-4b60-b949-00e3aa1d55a9</elementGuidId>
+   <elementGuidId>049c3cc4-64a7-4fc3-8d8a-076baabf8316</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]
-</value>
+         <value>//body/div[@id='app']/div[1]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[5]/div[1]/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

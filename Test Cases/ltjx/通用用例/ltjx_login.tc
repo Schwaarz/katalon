@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>login</name>
+   <name>ltjx_login</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>abdf35bf-4b6f-4350-976c-c4ac710cc258</testCaseGuid>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ltjx_add_diyijie_gongdanziyuan</name>
+   <name>ltjx_add_gongdanziyuan</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>94f09df2-c5f5-4c3a-b812-c37fc7fae2e1</testCaseGuid>

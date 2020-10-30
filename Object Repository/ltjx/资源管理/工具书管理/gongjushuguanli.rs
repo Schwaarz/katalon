@@ -6,12 +6,11 @@
    <elementGuidId>0b434289-e358-4a17-948c-3848e2a84064</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/aside[1]/div[1]/div[2]/div[2]/div[6]/div[1]/span[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;leftMenu&quot;]/div/div[2]/div[2]/div[6]/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -16,30 +16,53 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_login'), [('Networkaddress') : 'http://proltpt.wkuai.cc/', ('username') : '管理员', ('password') : 'Ltjx2020'], 
-    FailureHandling.STOP_ON_FAILURE)
+//呼叫登录测试用例
+WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-int delaytime = 2
+int delaytime = 1
 
 WebUI.click(findTestObject('ltjx/公共元素/菜单/ziyuanguanli'))
 
-WebUI.click(findTestObject('ltjx/资源管理/工具书管理/gongjushuguanli'))
+WebUI.click(findTestObject('ltjx/资源管理/教材管理/jiaocaiguanli'))
 
-WebUI.click(findTestObject('ltjx/资源管理/工具书管理/addgongjushu'))
+WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_catalog'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('ltjx/资源管理/工具书管理/gongjushumingcheng'), gongjushumingcheng)
+WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_PPT'), PPT)
 
-WebUI.delay(delaytime)
+WebUI.delay(5)
 
-WebUI.uploadFile(findTestObject('ltjx/资源管理/工具书管理/uploadPDF'), uploadPDF)
-
-WebUI.delay(delaytime)
-
-WebUI.uploadFile(findTestObject('ltjx/资源管理/工具书管理/gongjushufengmian'), gongjushufengmian)
+WebUI.click(findTestObject('ltjx/资源管理/教材管理/xiayibu'))
 
 WebUI.delay(delaytime)
 
-WebUI.click(findTestObject('ltjx/资源管理/工具书管理/gongjushu-submit'))
+WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_Mp4'), MP4)
+
+WebUI.delay(7)
+
+WebUI.click(findTestObject('ltjx/资源管理/教材管理/xiayibu'))
+
+WebUI.delay(delaytime)
+
+WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_pic'), Pic)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('ltjx/资源管理/教材管理/xiayibu'))
+
+WebUI.delay(delaytime)
+
+WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_gongjubook'), gongjubook)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('ltjx/资源管理/教材管理/baocun'))
+
+WebUI.delay(delaytime)
+
+//拍个照
+WebUI.takeScreenshot('E:\\jiaocaisubmit.png')
+
+WebUI.delay(delaytime)
 
 WebUI.closeBrowser()
 

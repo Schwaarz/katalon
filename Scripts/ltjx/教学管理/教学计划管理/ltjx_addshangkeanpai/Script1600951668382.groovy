@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('ltjx/login'), [('Networkaddress') : 'http://proltpt.wkuai.cc/', ('username') : '管理员', ('password') : 'Ltjx2020'], 
+WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_login'), [('Networkaddress') : 'http://proltpt.wkuai.cc/', ('username') : '管理员', ('password') : 'Ltjx2020'], 
     FailureHandling.STOP_ON_FAILURE)
 
 int delaytime = 1

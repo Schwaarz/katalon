@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>mulu_diyijie</name>
+   <name>mulu_1</name>
    <tag></tag>
    <elementGuidId>8e87c1c9-7ec8-4316-bd88-d95cc01966db</elementGuidId>
    <selectorCollection>

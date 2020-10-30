@@ -16,55 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//呼叫登录测试用例
-WebUI.callTestCase(findTestCase('ltjx/login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-int delaytime = 1
+WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_login'), [('Networkaddress') : 'http://proltpt.wkuai.cc/', ('username') : '管理员'
+        , ('password') : 'Ltjx2020'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ltjx/公共元素/菜单/ziyuanguanli'))
 
 WebUI.click(findTestObject('ltjx/资源管理/教材管理/jiaocaiguanli'))
 
-WebUI.click(findTestObject('ltjx/公共元素/目录/zhankaimulu'))
+WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_catalog'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ltjx/公共元素/目录/mulu_diyijie'))
+list = WebUI.getAllLinksOnCurrentPage(false, [])
 
-WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_PPT'), PPT)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('ltjx/资源管理/教材管理/xiayibu'))
-
-WebUI.delay(delaytime)
-
-WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_Mp4'), MP4)
-
-WebUI.delay(7)
-
-WebUI.click(findTestObject('ltjx/资源管理/教材管理/xiayibu'))
-
-WebUI.delay(delaytime)
-
-WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_pic'), Pic)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('ltjx/资源管理/教材管理/xiayibu'))
-
-WebUI.delay(delaytime)
-
-WebUI.uploadFile(findTestObject('ltjx/资源管理/教材管理/upload_gongjubook'), gongjubook)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('ltjx/资源管理/教材管理/baocun'))
-
-WebUI.delay(delaytime)
-
-//拍个照
-WebUI.takeScreenshot('E:\\jiaocaisubmit.png')
-
-WebUI.delay(delaytime)
-
-WebUI.closeBrowser()
+println (list)
 

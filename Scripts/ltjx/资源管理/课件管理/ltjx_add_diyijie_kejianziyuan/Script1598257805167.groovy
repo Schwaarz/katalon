@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 //导入支持键
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ltjx/login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 int delaytime = 1
 
@@ -27,9 +27,7 @@ WebUI.click(findTestObject('ltjx/公共元素/菜单/ziyuanguanli'))
 
 WebUI.click(findTestObject('ltjx/资源管理/课件管理/kejianguanli'))
 
-WebUI.click(findTestObject('ltjx/公共元素/目录/zhankaimulu'))
-
-WebUI.click(findTestObject('ltjx/公共元素/目录/mulu_diyijie'))
+WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_catalog'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(delaytime)
 
@@ -261,7 +259,7 @@ WebUI.click(findTestObject("ltjx/公共元素/区块元素/第八区块/选择/x
 
 WebUI.uploadFile(findTestObject('ltjx/公共元素/区块元素/第八区块/选择/upload-Pic'), xuanzePic)
 
-WebUI.delay(delaytime)
+WebUI.delay(3)
 
 //选择-END
 

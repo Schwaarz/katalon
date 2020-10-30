@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 //呼叫登录测试用例
-WebUI.callTestCase(findTestCase('ltjx/login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 int delaytime = 1
 

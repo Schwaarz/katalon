@@ -15,8 +15,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+
 //呼叫登录用例
-WebUI.callTestCase(findTestCase('ltjx/login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ltjx/通用用例/ltjx_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ltjx/公共元素/菜单/ziyuanguanli'))
 
