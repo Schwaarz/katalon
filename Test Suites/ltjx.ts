@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>4137bca0-6373-48ac-add3-455ad5499415</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ltjx/资源管理/课本管理/ltjx_addkeben</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -71,7 +71,7 @@
    <testCaseLink>
       <guid>3f3457ad-e021-4a03-99fd-27d3f6955d9f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ltjx/资源管理/教材管理/ltjx_add_jiaoxueziyuan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

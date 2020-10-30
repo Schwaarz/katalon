@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f4cb54cd-88c2-411a-922a-bd21aa8c1b22</testCaseGuid>
+   <variable>
+      <defaultValue>'测试'</defaultValue>
+      <description></description>
+      <id>8491142a-a9f5-4ca2-a1ea-ac5051281a17</id>
+      <masked>false</masked>
+      <name>mulumingcheng</name>
+   </variable>
 </TestCaseEntity>

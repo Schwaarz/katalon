@@ -29,9 +29,9 @@ int a = 0
 // 定义一个空列表
 def str=[]
 // 定义变量str1
-String str1 ='汽车电工入门'
+String str1 = mulumingcheng
 // 循环遍历目录列表
-	for(int i=1; i<7;i++){
+	for(int i=1; i<99;i++){
 		// 定义目录列表元素路径
 		String sanjiaoXpath = "//body/div[@id='app']/div[1]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div["+i+"]/div[1]/div[1]/div[1]/div[1]"
 		// 创建实例
@@ -42,6 +42,10 @@ String str1 ='汽车电工入门'
 		re = WebUI.getText(to) 
 		// 添加文本到空列表
 		str.add(re)
+		//判断是否有文本匹配，如匹配则中断循环
+		if(str1==re){
+			break;
+		}
 }	
 // 循环判断文本是否一致
 	for(int i=0;i<str.size();i++){
